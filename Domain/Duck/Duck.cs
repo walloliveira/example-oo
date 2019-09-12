@@ -2,7 +2,7 @@ using System;
 
 namespace Domain.Duck
 {
-    public abstract class Duck: IFlyBehavior
+    public abstract class Duck
     {
         public string Name { get; private set; }
 
